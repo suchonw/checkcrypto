@@ -1,0 +1,32 @@
+.app-header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #464646;
+  color: whitesmoke;
+  border: 5px;
+}
+
+.app-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+button {
+	border: .1rem solid #2e90ff;
+	border-radius: .5rem;
+	padding: .2rem 1rem;
+  background: #2e90ff;
+  color: whitesmoke;
+	transition: background .1s .25s linear,
+					color .1s .25s linear;
+}
+button:hover {
+	color: whitesmoke;
+	background: #7ab8ff;
+  border-color: #7ab8ff;
+}
